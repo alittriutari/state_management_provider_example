@@ -8,6 +8,7 @@ class ModulePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        key: Key('done_page_button'),
         title: Text('Memulai Pemrograman Dengan Dart'),
         actions: <Widget>[
           IconButton(
